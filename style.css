@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(to right,rgb(75,130,194),skyblue,rgb(194,224,238));
+}
+.containers{
+    color: white;
+    width: 40%;
+    margin: 0% 5% ;
+}
+#hide{
+    margin: 10% 0% 10% 10%; 
+}
+.contact-heading{
+    height: 5% ;
+    text-align: center;
+    color: gray;
+}
+.sub_container{
+    box-shadow: -22px 8px 61px -9px rgba(0,0,0,0.68);
+    height: 80%;
+    border-radius: 4px;
+    background-color: white;
+    margin: 10%;
+    padding: 3% 8%;
+}
+input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.562);
+}
+#message{
+    width: 100%;
+    color: black;
+    outline: none;
+    height: 40%;
+}
+#message textarea{
+    border: 1px solid rgba(128, 128, 128, 0.562);
+    outline: none;
+    width: 100%;
+}
+.cont{
+    display: flex;
+}
+.btn{
+    border: none;
+    width: 102%;
+    padding: 5%;
+    color: white;
+    text-align: center;
+    background-color: #d0d85f;
+}
+.sub_cont2{
+    width: 100%;
+    margin-right: 18px;
+}
+p{
+    line-height: 30px;
+}
+.contact-text {
+    line-height: 40px;
+    word-spacing: 10px;
+}
+.contact-icons{
+    width: 35px;
+}
+.contact-div{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.input_box{
+    color: black;
+    height: 18%;    
+}
+@media only screen and (max-width: 570px){
+    .containers{
+        width: 100%;
+        margin: 0;
+    }
+    #hide{
+        display: none;
+    }
+}
